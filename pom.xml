@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.8.RELEASE</version>
+		<version>2.2.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.khv.fox.sample.spring.boot</groupId>
@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot Configuration Processor bug</description>
 
 	<properties>
-		<java.version>12</java.version>
+		<java.version>8</java.version>
 	</properties>
 
 	<dependencies>
@@ -23,7 +23,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
